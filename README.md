@@ -1,12 +1,13 @@
 # S L I M E
 
-### A minimal starter kit for building web applications with Slim PHP Framework
+### Starter kit for building web applications with Slim PHP Framework
 
 *(it's Slim ... enhanced)*
-<br /><br /><br />
+
+---
 
 ## What's included?
-- [Slim v4](https://www.slimframework.com/) (w/ [Slim PSR7](https://github.com/slimphp/Slim-Psr7))
+- [Slim v4](https://www.slimframework.com/) (w/ [Slim PSR-7](https://github.com/slimphp/Slim-Psr7))
 - Handlebars templating - [Lightncandy](https://github.com/zordius/lightnCandy)    
 - Helpful abstraction functions - [Slime Utilities](https://github.com/hxgf/slime-utilities) 
   - View rendering - [Slime Render](https://github.com/hxgf/slime-render)
@@ -62,10 +63,11 @@ Helpful resources:
 
 Check out [slime-demo](https://github.com/hxgf/dbkit) to see examples of some cool stuff you can do with Slime!
 
+---
 
+Slime is heavily inspired by [STEREO](https://stereotk.com/), an older toolkit I've assembled and maintained, which has helped me to be very productive and make a decent living over the years. 
 
-
-
+I hope these tools and the workflows they enable can help some of you as much as they've helped me : )
 
 
 

@@ -1,7 +1,7 @@
 {
 	"name": "hxgf/slime",
   "homepage": "https://github.com/hxgf/slime",
-	"description": "PHP functions to handle database connection and CRUD operations with PDO.",
+	"description": "Starter kit for building web apps with Slim 4",
 	"type": "project",
   "license": "MIT",
 	"authors": [
@@ -11,7 +11,7 @@
       "homepage": "https://hxgf.io"
 		}
 	],
-	"keywords": ["boilerplate", "slim4"],
+	"keywords": ["boilerplate", "starter", "slim4", "slim-framework", "lightncandy", "handlebars"],
   "require": {
       "slim/slim": "4.*",
       "slim/psr7": "^1.5",
