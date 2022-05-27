@@ -16,7 +16,19 @@
   - Simple HTTP client - [HTTP Request](https://github.com/hxgf/http-request) 
   - Misc abstraction functions - [X-Utilities](https://github.com/hxgf/x-utilities)
     
-- Front-end boilerplate - [scratch](https://github.com/hxgf/scratch)
+- Front-end boilerplate & utility libraries - [scratch](https://github.com/hxgf/scratch)
+  - CSS
+    - [Tachyons CSS (4.12.0)](https://tachyons.io/) (default)
+    - [Tailwind CSS](https://tailwindcss.com/) [(latest via Play CDN)](https://tailwindcss.com/docs/installation/play-cdn) (alt)
+    - [Pico CSS (latest) via CDN](https://picocss.com/) (alt)
+  - JS
+    - [jQuery (3.6.0)](https://jquery.com/) (default)
+    - [Alpine.js (latest) via CDN](https://alpinejs.dev/) (alt)
+    - [Mithril.js (latest) via CDN](https://mithril.js.org/) (alt)
+    - [HTMX (1.7.0) via CDN](https://mithril.js.org/) (alt)
+  - JS Preloaders
+    - [Instant.Page (5.1.0)](https://instant.page/) (default)
+    - [Turbo (latest) via CDN](https://turbo.hotwired.dev/) (alt)
     
 - Simple organization - folders for css, js, images, templates, and controllers
 
@@ -59,7 +71,7 @@ Helpful resources:
 - [Handlebars Cookbook](https://zordius.github.io/HandlebarsCookbook/)
 - [Slim v4 Routing](https://www.slimframework.com/docs/v4/objects/routing.html)
 - [DB Kit CRUD operations](https://github.com/hxgf/dbkit)
-
+- [Tachyons Docs](https://tachyons.io/docs/)
 
 Check out [slime-demo](https://github.com/hxgf/dbkit) to see examples of some cool stuff you can do with Slime!
 
