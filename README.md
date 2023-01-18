@@ -17,7 +17,7 @@
   - Database handlers - [DB Kit](https://github.com/hxgf/dbkit)
   - Cookie handlers - [Cookie](https://github.com/hxgf/cookie)
   - Simple HTTP client - [HTTP Request](https://github.com/hxgf/http-request) 
-  - Misc abstraction functions - [X-Utilities](https://github.com/hxgf/x-utilities)
+  - Misc utility functions - [X-Utilities](https://github.com/hxgf/x-utilities)
     
 - Minimal front-end boilerplate & utility library options - [scratch](https://github.com/hxgf/scratch)
     
