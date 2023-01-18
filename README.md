@@ -9,26 +9,17 @@
 ## What's included?
 - [Slim v4](https://www.slimframework.com/) (w/ [Slim PSR-7](https://github.com/slimphp/Slim-Psr7))
 - Handlebars templating - [Lightncandy](https://github.com/zordius/lightnCandy)    
-- Helpful abstraction functions - [Slime Utilities](https://github.com/hxgf/slime-utilities) 
+
+
+- Helpful abstraction libraries:
+
   - View rendering - [Slime Render](https://github.com/hxgf/slime-render)
   - Database handlers - [DB Kit](https://github.com/hxgf/dbkit)
   - Cookie handlers - [Cookie](https://github.com/hxgf/cookie)
   - Simple HTTP client - [HTTP Request](https://github.com/hxgf/http-request) 
   - Misc abstraction functions - [X-Utilities](https://github.com/hxgf/x-utilities)
     
-- Front-end boilerplate & utility libraries - [scratch](https://github.com/hxgf/scratch)
-  - CSS
-    - [Tachyons CSS (4.12.0)](https://tachyons.io/) (default)
-    - [Tailwind CSS](https://tailwindcss.com/) [(latest via Play CDN)](https://tailwindcss.com/docs/installation/play-cdn) (alt)
-    - [Pico CSS (latest) via CDN](https://picocss.com/) (alt)
-  - JS
-    - [jQuery (3.6.0)](https://jquery.com/) (default)
-    - [Alpine.js (latest) via CDN](https://alpinejs.dev/) (alt)
-    - [Mithril.js (latest) via CDN](https://mithril.js.org/) (alt)
-    - [HTMX (1.7.0) via CDN](https://mithril.js.org/) (alt)
-  - JS Preloaders
-    - [Instant.Page (5.1.0)](https://instant.page/) (default)
-    - [Turbo (latest) via CDN](https://turbo.hotwired.dev/) (alt)
+- Minimal front-end boilerplate & utility library options - [scratch](https://github.com/hxgf/scratch)
     
 - Simple organization - folders for css, js, images, templates, and controllers
 

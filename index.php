@@ -1,6 +1,9 @@
 <?php
 
+// fixit cool art text and credits/version header
+
 use Slim\Factory\AppFactory;
+// fixit vphp
 use Slime\db;
 use Slime\render;
 
@@ -11,7 +14,7 @@ $app = AppFactory::create();
 
 $app->addBodyParsingMiddleware();
 
-$GLOBALS['database'] = db::init($GLOBALS['settings']['database']);
+$GLOBALS['database'] = isset($GLOBALS['settings']['database']) ? db::init($GLOBALS['settings']['database']) : false;
 
 $errorMiddleware = $app->addErrorMiddleware(false, false, false);
 
