@@ -1,10 +1,21 @@
 <?php
 
-// fixit cool art text and credits/version header
+/*
+
+  ███████╗ ██╗      ██╗ ███╗   ███╗ ███████╗
+  ██╔════╝ ██║      ██║ ████╗ ████║ ██╔════╝
+  ███████╗ ██║      ██║ ██╔████╔██║ █████╗  
+  ╚════██║ ██║      ██║ ██║╚██╔╝██║ ██╔══╝  
+  ███████║ ███████╗ ██║ ██║ ╚═╝ ██║ ███████╗
+  ╚══════╝ ╚══════╝ ╚═╝ ╚═╝     ╚═╝ ╚══════╝
+                                        
+  1.2.0 - https://github.com/hxgf/slime
+
+*/
+
 
 use Slim\Factory\AppFactory;
-// fixit vphp
-use Slime\db;
+use VPHP\db;
 use Slime\render;
 
 require __DIR__ . '/vendor/autoload.php';

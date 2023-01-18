@@ -4,7 +4,7 @@
 
 *(it's Slim ... enhanced)*
 
----
+[Demo & Docs](https://slime.hxgf.io/)
 
 ## What's included?
 - [Slim v4](https://www.slimframework.com/) (w/ [Slim PSR-7](https://github.com/slimphp/Slim-Psr7))
