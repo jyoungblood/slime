@@ -4,6 +4,8 @@
 
 *(it's Slim ... enhanced)*
 
+---
+
 [Demo & Docs](https://slime.hxgf.io/)
 
 ## What's included?
