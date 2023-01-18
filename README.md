@@ -23,6 +23,8 @@
     
 - Simple organization - folders for css, js, images, templates, and controllers
 
+- Blank CSS and JS placeholder files
+
 - [settings.php](https://github.com/hxgf/slime/blob/master/settings.php) - helpful basic variables and settings
 
 - [index.php](https://github.com/hxgf/slime/blob/master/index.php) - initialized Slim application w/ middleware, db connection, and default 404 configuration
