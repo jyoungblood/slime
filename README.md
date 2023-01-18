@@ -4,17 +4,16 @@
 
 *(it's Slim ... enhanced)*
 
-⭐ [DOCS](https://slime.hxgf.io/) 💕 [DEMO SRC](https://github.com/hxgf/slime-demo) ✨
+⭐ [DOCS](https://slime.hxgf.io/) ⭐ [DEMO SRC](https://github.com/hxgf/slime-demo) ⭐
 
 
 ## What's included?
 - [Slim v4](https://www.slimframework.com/) (w/ [Slim PSR-7](https://github.com/slimphp/Slim-Psr7))
 - Handlebars templating - [Lightncandy](https://github.com/zordius/lightnCandy)    
 
+- View rendering helpers - [Slime Render](https://github.com/hxgf/slime-render)
 
-- Helpful abstraction libraries:
-
-  - View rendering - [Slime Render](https://github.com/hxgf/slime-render)
+- Helpful Vanilla PHP abstraction libraries:
   - Database handlers - [DB Kit](https://github.com/hxgf/dbkit)
   - Cookie handlers - [Cookie](https://github.com/hxgf/cookie)
   - Simple HTTP client - [HTTP Request](https://github.com/hxgf/http-request) 
