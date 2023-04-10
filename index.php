@@ -38,9 +38,8 @@ $errorMiddleware->setErrorHandler(\Slim\Exception\HttpNotFoundException::class, 
 ) {
   return render::hbs($request, new \Slim\Psr7\Response(), [
     'template' => '404',
-    'status' => 404,
     'title' => '404 NOT FOUND',
-  ]);
+  ], 404);
 });
 
 require 'controllers/index.php';
