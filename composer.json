@@ -14,7 +14,7 @@
 	"keywords": ["boilerplate", "starter", "slim4", "slim-framework", "lightncandy", "handlebars"],
   "require": {
     "slim/slim": "4.*",
-    "slim/psr7": "^1.5",
+    "slim/psr7": "^1.6.1",
     "zordius/lightncandy": "dev-master",
     "hxgf/dbkit": "^1.2",
     "hxgf/cookie": "^1.1",
