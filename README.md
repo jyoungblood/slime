@@ -2,17 +2,14 @@
 
 ### Starter kit for building web applications with Slim PHP Framework
 
-#### (it's Slim ... enhanced)
+*(it's Slim ... enhanced)*
 
 ⭐ [DOCS](https://slime.technology/) <br />
 ⭐ [DEMO SRC](https://github.com/hxgf/slime-demo)
 
 
 
-SLIME is a highly opinionated boilerplate and configuration for Slim applications. It's designed for solo developers working in "small scale" environments.
-
-focus on developer velocity, making it easy to provide value quickly without a lot of technical overhead
-using old technology to produce a reliable product
+SLIME is a highly opinionated boilerplate for Slim applications. It's designed for solo developers working in "small scale" environments. While it produces a reliable final product, this configuration focuses on developer velocity, making it easy to provide value quickly without introducing unnecessary technical overhead.
 
 
 
