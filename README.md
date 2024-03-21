@@ -4,7 +4,7 @@
 
 *(it's Slim ... enhanced)*
 
-⭐ [DOCS](https://slime.technology/) 
+⭐ [DOCS](https://slime.technology/) <br />
 ⭐ [DEMO SRC](https://github.com/hxgf/slime-demo)
 
 
