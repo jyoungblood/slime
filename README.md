@@ -4,7 +4,7 @@
 
 *(it's Slim ... enhanced)*
 
-⭐ [DOCS](https://slime.hxgf.io/) ⭐ [DEMO SRC](https://github.com/hxgf/slime-demo) ⭐
+⭐ [DOCS](https://slime.technology/) ⭐ [DEMO SRC](https://github.com/hxgf/slime-demo) ⭐
 
 
 ## What's included?
@@ -25,11 +25,12 @@
 
 - Blank CSS and JS placeholder files
 
-- [settings.php](https://github.com/hxgf/slime/blob/master/settings.php) - helpful basic variables and settings
+- [.env](https://github.com/hxgf/slime/blob/master/.env.example) - helpful basic variables and settings, pre-wired with [phpdotenv](https://github.com/vlucas/phpdotenv)
 
 - [index.php](https://github.com/hxgf/slime/blob/master/index.php) - initialized Slim application w/ middleware, db connection, and default 404 configuration
 
 - [.htaccess](https://github.com/hxgf/slime/blob/master/.htaccess) - routes all non-file urls to index, forces https, and uses gzip for static assets (if available)
+
 - [.gitignore](https://github.com/hxgf/slime/blob/master/.gitignore) - ignores `/vendor`, `.vscode`, and `.DS_Store`
 
 
@@ -52,10 +53,22 @@ Easy install with composer:
 composer create-project hxgf/slime new-project-name
 ```
 
+Initialize the .env file, using the boilerplate example:
+```
+mv .env.example .env
+```
+
 
 
 
 ## Usage
+While SLIME is currently not intended for local development workflows, you're welcome to try your luck with PHP's built-in server:
+```
+php -S localhost:6969
+```
+Alternatively, you could use [Herd](https://herd.laravel.com/), which is an excellent tool for local development.
+
+
 See [controllers/index.php](https://github.com/hxgf/slime/blob/master/controllers/index.php) for an example of routing and template rendering.
 
 See [templates/index.html](https://github.com/hxgf/slime/blob/master/templates/index.html) and [templates/_layouts/base.html](https://github.com/hxgf/slime/blob/master/templates/_layouts/base.html) for examples using handlebars and layouts.
