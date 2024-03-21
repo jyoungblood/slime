@@ -2,14 +2,25 @@
 
 ### Starter kit for building web applications with Slim PHP Framework
 
-*(it's Slim ... enhanced)*
+#### (it's Slim ... enhanced)
 
 ⭐ [DOCS](https://slime.technology/) <br />
 ⭐ [DEMO SRC](https://github.com/hxgf/slime-demo)
 
 
+
+SLIME is a highly opinionated boilerplate and configuration for Slim applications. It's designed for solo developers working in "small scale" environments.
+
+focus on developer velocity, making it easy to provide value quickly without a lot of technical overhead
+using old technology to produce a reliable product
+
+
+
+
 ## What's included?
+
 - [Slim v4](https://www.slimframework.com/) (w/ [Slim PSR-7](https://github.com/slimphp/Slim-Psr7))
+
 - Handlebars templating - [Lightncandy](https://github.com/zordius/lightnCandy)    
 
 - View rendering helpers - [Slime Render](https://github.com/hxgf/slime-render)
@@ -32,7 +43,7 @@
 
 - [.htaccess](https://github.com/hxgf/slime/blob/master/.htaccess) - routes all non-file urls to index, forces https, and uses gzip for static assets (if available)
 
-- [.gitignore](https://github.com/hxgf/slime/blob/master/.gitignore) - ignores `/vendor`, `.vscode`, and `.DS_Store`
+- [.gitignore](https://github.com/hxgf/slime/blob/master/.gitignore) - ignores `/vendor`, `.env`, `.vscode`, and `.DS_Store`
 
 
 
