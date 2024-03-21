@@ -2,10 +2,8 @@
 
 ### Starter kit for building web applications with Slim PHP Framework
 
-*(it's Slim ... enhanced)*
-
-⭐ [DOCS](https://slime.technology/) <br />
-⭐ [DEMO SRC](https://github.com/hxgf/slime-demo)
+- Documentation: [https://slime.technology/](https://slime.technology/)
+- Demo SRC: [https://github.com/hxgf/slime-demo](https://github.com/hxgf/slime-demo)
 
 
 
