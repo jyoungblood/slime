@@ -69,7 +69,7 @@ mv .env.example .env
 
 
 ## Usage
-While SLIME is currently not intended for local development workflows, you're welcome to try your luck with PHP's built-in server:
+Although SLIME is currently not intended for local development workflows, you're welcome to try your luck with PHP's built-in server:
 ```
 php -S localhost:6969
 ```
@@ -86,7 +86,7 @@ Helpful resources:
 - [DB Kit CRUD operations](https://github.com/hxgf/dbkit)
 - [Tachyons Docs](https://tachyons.io/docs/)
 
-Check out [slime-demo](https://github.com/hxgf/slime-demo) to see examples of some cool stuff you can do with Slime!
+Check out [slime-demo](https://github.com/hxgf/slime-demo) to see more examples of the kind of things you can do with SLIME!
 
 ---
 
