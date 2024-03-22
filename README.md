@@ -38,7 +38,7 @@ SLIME is a highly opinionated boilerplate for Slim applications. It's designed f
 
 - [.htaccess](https://github.com/hxgf/slime/blob/master/.htaccess) - routes all non-file urls to index, forces https, and uses gzip for static assets (if available)
 
-- [.gitignore](https://github.com/hxgf/slime/blob/master/.gitignore) - ignores `/vendor`, `.env`, `.vscode`, and `.DS_Store`
+- [.gitignore](https://github.com/hxgf/slime/blob/master/.gitignore) - ignores `/vendor`, `.env`, `.vscode`, `error_log`, and `.DS_Store`
 
 
 
