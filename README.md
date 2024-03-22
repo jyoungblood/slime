@@ -86,7 +86,7 @@ Helpful resources:
 - [DB Kit CRUD operations](https://github.com/hxgf/dbkit)
 - [Tachyons Docs](https://tachyons.io/docs/)
 
-Check out [slime-demo](https://github.com/hxgf/dbkit) to see examples of some cool stuff you can do with Slime!
+Check out [slime-demo](https://github.com/hxgf/slime-demo) to see examples of some cool stuff you can do with Slime!
 
 ---
 
