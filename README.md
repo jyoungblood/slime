@@ -3,7 +3,7 @@
 ### Starter kit for building web applications with Slim PHP Framework
 
 - Documentation: [https://slime.technology/](https://slime.technology/)
-- Demo SRC: [https://github.com/hxgf/slime-demo](https://github.com/hxgf/slime-demo)
+- Demo SRC: [https://github.com/jyoungblood/slime-demo](https://github.com/jyoungblood/slime-demo)
 
 
 
@@ -18,27 +18,27 @@ SLIME is a highly opinionated boilerplate for Slim applications. It's designed f
 
 - Handlebars templating - [Lightncandy](https://github.com/zordius/lightnCandy)    
 
-- View rendering helpers - [Slime Render](https://github.com/hxgf/slime-render)
+- View rendering helpers - [Slime Render](https://github.com/jyoungblood/slime-render)
 
 - Helpful Vanilla PHP abstraction libraries:
-  - Database handlers - [DB Kit](https://github.com/hxgf/dbkit)
-  - Cookie handlers - [Cookie](https://github.com/hxgf/cookie)
-  - Simple HTTP client - [HTTP Request](https://github.com/hxgf/http-request) 
-  - Misc utility functions - [X-Utilities](https://github.com/hxgf/x-utilities)
+  - Database handlers - [DB Kit](https://github.com/jyoungblood/dbkit)
+  - Cookie handlers - [Cookie](https://github.com/jyoungblood/cookie)
+  - Simple HTTP client - [HTTP Request](https://github.com/jyoungblood/http-request) 
+  - Misc utility functions - [X-Utilities](https://github.com/jyoungblood/x-utilities)
     
-- Minimal front-end boilerplate & utility library options - [scratch](https://github.com/hxgf/scratch)
+- Minimal front-end boilerplate & utility library options - [scratch](https://github.com/jyoungblood/scratch)
     
 - Simple organization - folders for css, js, images, templates, and controllers
 
 - Blank CSS and JS placeholder files
 
-- [.env](https://github.com/hxgf/slime/blob/master/.env.example) - helpful basic variables and settings, pre-wired with [phpdotenv](https://github.com/vlucas/phpdotenv)
+- [.env](https://github.com/jyoungblood/slime/blob/master/.env.example) - helpful basic variables and settings, pre-wired with [phpdotenv](https://github.com/vlucas/phpdotenv)
 
-- [index.php](https://github.com/hxgf/slime/blob/master/index.php) - initialized Slim application w/ middleware, db connection, and default 404 configuration
+- [index.php](https://github.com/jyoungblood/slime/blob/master/index.php) - initialized Slim application w/ middleware, db connection, and default 404 configuration
 
-- [.htaccess](https://github.com/hxgf/slime/blob/master/.htaccess) - routes all non-file urls to index, forces https, and uses gzip for static assets (if available)
+- [.htaccess](https://github.com/jyoungblood/slime/blob/master/.htaccess) - routes all non-file urls to index, forces https, and uses gzip for static assets (if available)
 
-- [.gitignore](https://github.com/hxgf/slime/blob/master/.gitignore) - ignores `/vendor`, `.env`, `.vscode`, `error_log`, and `.DS_Store`
+- [.gitignore](https://github.com/jyoungblood/slime/blob/master/.gitignore) - ignores `/vendor`, `.env`, `.vscode`, `error_log`, and `.DS_Store`
 
 
 
@@ -48,7 +48,7 @@ SLIME is a highly opinionated boilerplate for Slim applications. It's designed f
 ## Requirements
 - Apache
 - PHP >= 7.4
-- PDO-compatible database (if using [DB handlers](https://github.com/hxgf/dbkit))
+- PDO-compatible database (if using [DB handlers](https://github.com/jyoungblood/dbkit))
 
 
 
@@ -57,7 +57,7 @@ SLIME is a highly opinionated boilerplate for Slim applications. It's designed f
 ## Installation
 Easy install with composer:
 ```
-composer create-project hxgf/slime new-project-name
+composer create-project jyoungblood/slime new-project-name
 ```
 
 Initialize the .env file, using the boilerplate example:
@@ -76,17 +76,17 @@ php -S localhost:6969
 Alternatively, you could use [Herd](https://herd.laravel.com/), which is an excellent tool for local development.
 
 
-See [controllers/index.php](https://github.com/hxgf/slime/blob/master/controllers/index.php) for an example of routing and template rendering.
+See [controllers/index.php](https://github.com/jyoungblood/slime/blob/master/controllers/index.php) for an example of routing and template rendering.
 
-See [templates/index.html](https://github.com/hxgf/slime/blob/master/templates/index.html) and [templates/_layouts/base.html](https://github.com/hxgf/slime/blob/master/templates/_layouts/base.html) for examples using handlebars and layouts.
+See [templates/index.html](https://github.com/jyoungblood/slime/blob/master/templates/index.html) and [templates/_layouts/base.html](https://github.com/jyoungblood/slime/blob/master/templates/_layouts/base.html) for examples using handlebars and layouts.
 
 Helpful resources:
 - [Handlebars Cookbook](https://zordius.github.io/HandlebarsCookbook/)
 - [Slim v4 Routing](https://www.slimframework.com/docs/v4/objects/routing.html)
-- [DB Kit CRUD operations](https://github.com/hxgf/dbkit)
+- [DB Kit CRUD operations](https://github.com/jyoungblood/dbkit)
 - [Tachyons Docs](https://tachyons.io/docs/)
 
-Check out [slime-demo](https://github.com/hxgf/slime-demo) to see more examples of the kind of things you can do with SLIME!
+Check out [slime-demo](https://github.com/jyoungblood/slime-demo) to see more examples of the kind of things you can do with SLIME!
 
 ---
 

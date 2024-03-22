@@ -1,6 +1,6 @@
 {
-	"name": "hxgf/slime",
-  "homepage": "https://github.com/hxgf/slime",
+	"name": "jyoungblood/slime",
+  "homepage": "https://github.com/jyoungblood/slime",
 	"description": "Starter kit for building web apps with Slim 4",
 	"type": "project",
   "license": "MIT",
@@ -8,7 +8,7 @@
 		{
       "name": "Jonathan Youngblood",
       "email": "jy@hxgf.io",
-      "homepage": "https://hxgf.io"
+      "homepage": "https://jonathanyoungblood.com"
 		}
 	],
 	"keywords": ["boilerplate", "starter", "slim4", "slim-framework", "lightncandy", "handlebars"],
@@ -16,11 +16,11 @@
     "slim/slim": "4.*",
     "slim/psr7": "^1.6.1",
     "zordius/lightncandy": "^1.2",
-    "hxgf/dbkit": "^1.2",
-    "hxgf/cookie": "^1.1",
-    "hxgf/http-request": "^1.2",
-    "hxgf/x-utilities": "^1.2",
-    "hxgf/slime-render": "^1.3",
+    "jyoungblood/dbkit": "^1.2",
+    "jyoungblood/cookie": "^1.1",
+    "jyoungblood/http-request": "^1.2",
+    "jyoungblood/x-utilities": "^1.2",
+    "jyoungblood/slime-render": "^1.3",
 		"vlucas/phpdotenv": "^5.6"
   }
 }
