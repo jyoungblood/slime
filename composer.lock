@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fdd9b25bd49fb453eee7db654118e30d",
+    "content-hash": "6952fdf94c28fe08bef3aba04746316e",
     "packages": [
         {
             "name": "fig/http-message-util",
@@ -125,16 +125,16 @@
             "time": "2023-11-12T22:16:48+00:00"
         },
         {
-            "name": "hxgf/cookie",
+            "name": "jyoungblood/cookie",
             "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hxgf/cookie.git",
+                "url": "https://github.com/jyoungblood/cookie.git",
                 "reference": "11b16dfe0170d2f9c35856f0475decf6086c57e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hxgf/cookie/zipball/11b16dfe0170d2f9c35856f0475decf6086c57e6",
+                "url": "https://api.github.com/repos/jyoungblood/cookie/zipball/11b16dfe0170d2f9c35856f0475decf6086c57e6",
                 "reference": "11b16dfe0170d2f9c35856f0475decf6086c57e6",
                 "shasum": ""
             },
@@ -164,22 +164,22 @@
                 "utilities"
             ],
             "support": {
-                "issues": "https://github.com/hxgf/cookie/issues",
-                "source": "https://github.com/hxgf/cookie/tree/1.1.0"
+                "issues": "https://github.com/jyoungblood/cookie/issues",
+                "source": "https://github.com/jyoungblood/cookie/tree/1.1.0"
             },
             "time": "2023-01-17T20:25:09+00:00"
         },
         {
-            "name": "hxgf/dbkit",
+            "name": "jyoungblood/dbkit",
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hxgf/dbkit.git",
+                "url": "https://github.com/jyoungblood/dbkit.git",
                 "reference": "1bb3d4028d4736a3178ec472c6bb82f0df54d04f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hxgf/dbkit/zipball/1bb3d4028d4736a3178ec472c6bb82f0df54d04f",
+                "url": "https://api.github.com/repos/jyoungblood/dbkit/zipball/1bb3d4028d4736a3178ec472c6bb82f0df54d04f",
                 "reference": "1bb3d4028d4736a3178ec472c6bb82f0df54d04f",
                 "shasum": ""
             },
@@ -211,22 +211,22 @@
                 "utilities"
             ],
             "support": {
-                "issues": "https://github.com/hxgf/dbkit/issues",
-                "source": "https://github.com/hxgf/dbkit/tree/1.2.0"
+                "issues": "https://github.com/jyoungblood/dbkit/issues",
+                "source": "https://github.com/jyoungblood/dbkit/tree/1.2.0"
             },
             "time": "2023-01-17T20:25:32+00:00"
         },
         {
-            "name": "hxgf/http-request",
+            "name": "jyoungblood/http-request",
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hxgf/http-request.git",
+                "url": "https://github.com/jyoungblood/http-request.git",
                 "reference": "74a359757db3fc0049932508e71db7f0edb453ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hxgf/http-request/zipball/74a359757db3fc0049932508e71db7f0edb453ab",
+                "url": "https://api.github.com/repos/jyoungblood/http-request/zipball/74a359757db3fc0049932508e71db7f0edb453ab",
                 "reference": "74a359757db3fc0049932508e71db7f0edb453ab",
                 "shasum": ""
             },
@@ -257,22 +257,22 @@
                 "utilities"
             ],
             "support": {
-                "issues": "https://github.com/hxgf/http-request/issues",
-                "source": "https://github.com/hxgf/http-request/tree/1.2.0"
+                "issues": "https://github.com/jyoungblood/http-request/issues",
+                "source": "https://github.com/jyoungblood/http-request/tree/1.2.0"
             },
             "time": "2023-01-17T20:25:42+00:00"
         },
         {
-            "name": "hxgf/slime-render",
+            "name": "jyoungblood/slime-render",
             "version": "1.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hxgf/slime-render.git",
+                "url": "https://github.com/jyoungblood/slime-render.git",
                 "reference": "df01a1c010a42309c2ff227d1c88d2c580924cf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hxgf/slime-render/zipball/df01a1c010a42309c2ff227d1c88d2c580924cf8",
+                "url": "https://api.github.com/repos/jyoungblood/slime-render/zipball/df01a1c010a42309c2ff227d1c88d2c580924cf8",
                 "reference": "df01a1c010a42309c2ff227d1c88d2c580924cf8",
                 "shasum": ""
             },
@@ -306,22 +306,22 @@
                 "view helpers"
             ],
             "support": {
-                "issues": "https://github.com/hxgf/slime-render/issues",
-                "source": "https://github.com/hxgf/slime-render/tree/1.3.2"
+                "issues": "https://github.com/jyoungblood/slime-render/issues",
+                "source": "https://github.com/jyoungblood/slime-render/tree/1.3.2"
             },
             "time": "2023-11-01T21:44:07+00:00"
         },
         {
-            "name": "hxgf/x-utilities",
+            "name": "jyoungblood/x-utilities",
             "version": "1.2.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hxgf/x-utilities.git",
+                "url": "https://github.com/jyoungblood/x-utilities.git",
                 "reference": "44132d599fec54f47ba6ad337e92ef19ab495a1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hxgf/x-utilities/zipball/44132d599fec54f47ba6ad337e92ef19ab495a1f",
+                "url": "https://api.github.com/repos/jyoungblood/x-utilities/zipball/44132d599fec54f47ba6ad337e92ef19ab495a1f",
                 "reference": "44132d599fec54f47ba6ad337e92ef19ab495a1f",
                 "shasum": ""
             },
@@ -349,8 +349,8 @@
                 "utilities"
             ],
             "support": {
-                "issues": "https://github.com/hxgf/x-utilities/issues",
-                "source": "https://github.com/hxgf/x-utilities/tree/1.2.1"
+                "issues": "https://github.com/jyoungblood/x-utilities/issues",
+                "source": "https://github.com/jyoungblood/x-utilities/tree/1.2.1"
             },
             "time": "2023-06-30T18:13:04+00:00"
         },
