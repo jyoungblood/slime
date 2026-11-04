@@ -69,6 +69,37 @@ mv .env.example .env
 
 
 ## Usage
+
+### Upgrading to 2.0.0
+
+Slime 2 requires DBKit 2. Existing applications must migrate interpolated SQL to explicit parameters:
+
+```php
+use VPHP\db;
+
+db::find('urls', 'hash = ?', [$hash]);
+db::get('urls', 'hash = :hash', ['hash' => $hash]);
+db::fetch('', 'SELECT * FROM urls WHERE hash = ?', [$hash], ['raw' => true]);
+db::update('urls', ['title' => $title], 'hash = ?', [$hash]);
+db::delete('urls', 'hash = ?', [$hash]);
+```
+
+Read methods now take parameters third and options fourth. Use `[]` for parameters when only options are needed.
+`insert()` keeps its signature. `create_placeholders()` is removed. Old interpolated calls do not become safe automatically.
+Keep table names, column names, and SQL fragments developer-controlled.
+See the [DBKit migration guide](https://github.com/jyoungblood/dbkit/blob/2.0.0/README.md#migration) for all changes.
+
+Database initialization now runs inside request middleware, before route callbacks and inside Slim's error handler.
+Move database work from controller registration into route callbacks or middleware that runs after initialization.
+The global `database` value is `false` until initialization, or when `DB_HOST` is absent.
+
+Connection and query failures throw. Slim returns an error response instead of continuing after database failure.
+Set `SITE_MODE=production` to hide error details. Development mode displays and logs details.
+Configure application logging through Slim's error middleware as needed.
+Empty query results and zero-row writes remain successful.
+
+### Running locally
+
 Although SLIME is currently not intended for local development workflows, you're welcome to try your luck with PHP's built-in server:
 ```
 php -S localhost:6969
@@ -87,6 +118,11 @@ Helpful resources:
 - [Tachyons Docs](https://tachyons.io/docs/)
 
 Check out [slime-demo](https://github.com/jyoungblood/slime-demo) to see more examples of the kind of things you can do with SLIME!
+
+## Tests
+
+Run `composer test` after installing dependencies. The smoke tests require PHP CLI, PDO, and `pdo_sqlite`.
+They exercise the real bootstrap with isolated routes and temporary settings, without using your `.env` or application database.
 
 ---
 
