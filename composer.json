@@ -16,7 +16,7 @@
     "slim/slim": "^4.15.3",
     "slim/psr7": "^1.6.1",
     "zordius/lightncandy": "^1.2",
-    "jyoungblood/dbkit": "^2.0",
+    "jyoungblood/dbkit": "^2.0.1",
     "jyoungblood/cookie": "^1.1",
     "jyoungblood/http-request": "^1.2",
     "jyoungblood/x-utilities": "^1.2",

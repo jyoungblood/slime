@@ -70,27 +70,29 @@ mv .env.example .env
 
 ## Usage
 
-### Upgrading to 2.0.0
+### Database queries
 
-Slime 2 requires DBKit 2. Existing applications must migrate interpolated SQL to explicit parameters:
+Slime uses DBKit `^2.0.1`. Use column/value maps for simple conditions or `[SQL, ...values]` tuples for custom SQL. Both bind values through PDO:
 
 ```php
 use VPHP\db;
 
-db::find('urls', 'hash = ?', [$hash]);
-db::get('urls', 'hash = :hash', ['hash' => $hash]);
-db::fetch('', 'SELECT * FROM urls WHERE hash = ?', [$hash], ['raw' => true]);
-db::update('urls', ['title' => $title], 'hash = ?', [$hash]);
-db::delete('urls', 'hash = ?', [$hash]);
+db::find('urls', ['hash' => $hash]);
+db::get('urls', ['hash = ?', $hash]);
+db::fetch('', ['SELECT * FROM urls WHERE hash = ?', $hash], ['raw' => true]);
+db::update('urls', ['title' => $title], ['hash' => $hash]);
+db::delete('urls', ['hash' => $hash]);
 ```
 
-Read methods now take parameters third and options fourth. Use `[]` for parameters when only options are needed.
-`insert()` keeps its signature. `create_placeholders()` is removed. Old interpolated calls do not become safe automatically.
-Keep table names, column names, and SQL fragments developer-controlled.
-See the [DBKit migration guide](https://github.com/jyoungblood/dbkit/blob/2.0.0/README.md#migration) for all changes.
+Read methods take criteria second and options third. Map conditions are joined with `AND`; null values use `IS NULL`.
+Use tuples for operators, ordering, or limits, such as `['visits > ? ORDER BY title LIMIT ?', $minimum, 8]`.
+Empty criteria arrays are rejected; use trusted SQL `'1 = 1'` to intentionally match every row.
 
-Database initialization now runs inside request middleware, before route callbacks and inside Slim's error handler.
-Move database work from controller registration into route callbacks or middleware that runs after initialization.
+Do not interpolate user input into SQL. Keep table names, column names, and SQL fragments developer-controlled.
+See the [DBKit documentation](https://github.com/jyoungblood/dbkit/blob/2.0.1/README.md) for the complete API.
+
+Database initialization runs inside request middleware, before route callbacks and inside Slim's error handler.
+Run database work inside route callbacks or middleware that runs after initialization.
 The global `database` value is `false` until initialization, or when `DB_HOST` is absent.
 
 Connection and query failures throw. Slim returns an error response instead of continuing after database failure.

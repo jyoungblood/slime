@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b48e12d80e86d776c8b1cef0f2cae63",
+    "content-hash": "2ef125983e88687ecf28705068dd3d28",
     "packages": [
         {
             "name": "fig/http-message-util",
@@ -171,16 +171,16 @@
         },
         {
             "name": "jyoungblood/dbkit",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jyoungblood/dbkit.git",
-                "reference": "a73d11c656aeaeea64b9ae8ce5696ca9adaf1307"
+                "reference": "c425e0e1f505c6d4f47cd2786377c23dc0f1f3f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jyoungblood/dbkit/zipball/a73d11c656aeaeea64b9ae8ce5696ca9adaf1307",
-                "reference": "a73d11c656aeaeea64b9ae8ce5696ca9adaf1307",
+                "url": "https://api.github.com/repos/jyoungblood/dbkit/zipball/c425e0e1f505c6d4f47cd2786377c23dc0f1f3f7",
+                "reference": "c425e0e1f505c6d4f47cd2786377c23dc0f1f3f7",
                 "shasum": ""
             },
             "type": "library",
@@ -212,7 +212,7 @@
             ],
             "support": {
                 "issues": "https://github.com/jyoungblood/dbkit/issues",
-                "source": "https://github.com/jyoungblood/dbkit/tree/2.0.0"
+                "source": "https://github.com/jyoungblood/dbkit/tree/2.0.1"
             },
             "funding": [
                 {
@@ -220,7 +220,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-11-04T18:57:43+00:00"
+            "time": "2026-11-05T00:08:13+00:00"
         },
         {
             "name": "jyoungblood/http-request",

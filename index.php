@@ -9,7 +9,7 @@
   ███████║ ███████╗ ██║ ██║ ╚═╝ ██║ ███████╗
   ╚══════╝ ╚══════╝ ╚═╝ ╚═╝     ╚═╝ ╚══════╝
                                         
-  2.0.0 - https://github.com/jyoungblood/slime
+  1.3.0 - https://github.com/jyoungblood/slime
 
 */
 

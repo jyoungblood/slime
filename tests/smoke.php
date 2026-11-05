@@ -49,13 +49,13 @@ $app->get('/binding', function ($request, $response) {
   $payload = "' OR 1=1 --";
   \VPHP\db::insert('urls', ['hash' => 'ordinary']);
   \VPHP\db::insert('urls', ['hash' => $payload]);
-  $result = \VPHP\db::find('urls', 'hash = :hash', ['hash' => $payload]);
+  $result = \VPHP\db::find('urls', ['hash' => $payload]);
   $response->getBody()->write(json_encode($result));
   return $response;
 });
 $app->get('/query-error', function ($request, $response) {
   $GLOBALS['database'] = new PDO('sqlite::memory:');
-  \VPHP\db::find('private_table_name', 'id = ?', [1]);
+  \VPHP\db::find('private_table_name', ['id = ?', 1]);
   $response->getBody()->write('incorrect success');
   return $response;
 });
@@ -107,7 +107,7 @@ $tests = [
     same(['database' => false], json_decode($result['body'], true, 512, JSON_THROW_ON_ERROR));
     same('', $result['stderr']);
   },
-  'DBKit 2 binds injection strings as values' => function () use ($site) {
+  'DBKit 2.0.1 criteria maps bind injection strings as values' => function () use ($site) {
     $result = request($site, '/binding');
     same(200, $result['status']);
     same(['data' => [['hash' => "' OR 1=1 --"]], 'total' => 1], json_decode($result['body'], true, 512, JSON_THROW_ON_ERROR));
