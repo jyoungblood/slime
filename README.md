@@ -70,36 +70,6 @@ mv .env.example .env
 
 ## Usage
 
-### Database queries
-
-Slime uses DBKit `^2.0.1`. Use column/value maps for simple conditions or `[SQL, ...values]` tuples for custom SQL. Both bind values through PDO:
-
-```php
-use VPHP\db;
-
-db::find('urls', ['hash' => $hash]);
-db::get('urls', ['hash = ?', $hash]);
-db::fetch('', ['SELECT * FROM urls WHERE hash = ?', $hash], ['raw' => true]);
-db::update('urls', ['title' => $title], ['hash' => $hash]);
-db::delete('urls', ['hash' => $hash]);
-```
-
-Read methods take criteria second and options third. Map conditions are joined with `AND`; null values use `IS NULL`.
-Use tuples for operators, ordering, or limits, such as `['visits > ? ORDER BY title LIMIT ?', $minimum, 8]`.
-Empty criteria arrays are rejected; use trusted SQL `'1 = 1'` to intentionally match every row.
-
-Do not interpolate user input into SQL. Keep table names, column names, and SQL fragments developer-controlled.
-See the [DBKit documentation](https://github.com/jyoungblood/dbkit/blob/2.0.1/README.md) for the complete API.
-
-Database initialization runs inside request middleware, before route callbacks and inside Slim's error handler.
-Run database work inside route callbacks or middleware that runs after initialization.
-The global `database` value is `false` until initialization, or when `DB_HOST` is absent.
-
-Connection and query failures throw. Slim returns an error response instead of continuing after database failure.
-Set `SITE_MODE=production` to hide error details. Development mode displays and logs details.
-Configure application logging through Slim's error middleware as needed.
-Empty query results and zero-row writes remain successful.
-
 ### Running locally
 
 Although SLIME is currently not intended for local development workflows, you're welcome to try your luck with PHP's built-in server:
@@ -120,11 +90,6 @@ Helpful resources:
 - [Tachyons Docs](https://tachyons.io/docs/)
 
 Check out [slime-demo](https://github.com/jyoungblood/slime-demo) to see more examples of the kind of things you can do with SLIME!
-
-## Tests
-
-Run `composer test` after installing dependencies. The smoke tests require PHP CLI, PDO, and `pdo_sqlite`.
-They exercise the real bootstrap with isolated routes and temporary settings, without using your `.env` or application database.
 
 ---
 

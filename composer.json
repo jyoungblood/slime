@@ -22,8 +22,5 @@
     "jyoungblood/x-utilities": "^1.2",
     "jyoungblood/slime-render": "^1.3",
 		"vlucas/phpdotenv": "^5.6"
-  },
-  "scripts": {
-    "test": "php tests/smoke.php"
   }
 }
